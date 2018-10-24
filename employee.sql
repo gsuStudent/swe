@@ -36,9 +36,9 @@ CREATE TABLE `employee` (
 
 INSERT INTO `employee` (`id`, `EmployeID`, `first_name`, `last_name`, `phone`, `email`, `skills`) VALUES
 (1, '23121', 'Bob', 'Ross', '678-902-1223', 'bobo@gmail.com', 'python'),
-(13, '124189', 'Manu', 'Slol', '678-901-8811', 'slol@yahoo.com', 'Java, C'),
-(14, '12416', 'Don', 'Jo', '404-101-2211', 'jol@hotmail.com', 'C++'),
-(15, '3234', 'John', 'Dike', '404-112-3021', 'dike@yahoo.com', 'Perl');
+(2, '124189', 'Manu', 'Slol', '678-901-8811', 'slol@yahoo.com', 'Java, C'),
+(3, '12416', 'Don', 'Jo', '404-101-2211', 'jol@hotmail.com', 'C++'),
+(4, '3234', 'John', 'Dike', '404-112-3021', 'dike@yahoo.com', 'Perl');
 
 --
 -- Indexes for dumped tables
