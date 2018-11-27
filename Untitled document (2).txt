@@ -1,0 +1,19 @@
+﻿public void test(){
+     try 
+        {
+          Connection connection = Db.getconnection();
+         Statement stm=connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
+        ResultSet rs=stm.executeQuery("SELECT username as 'User', modification as 'Action', reason as 'Information' FROM `change`");
+            jTable1.setModel(DbUtils.resultSetToTableModel(rs));
+        
+        
+            
+            
+            
+                  
+        } catch (SQLException ex) {
+           
+          JOptionPane.showMessageDialog(null,ex);
+        }
+    sizetoadjust();
+}
